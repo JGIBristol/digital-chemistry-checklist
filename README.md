@@ -1,5 +1,6 @@
 # Chemspeed Helper: 
 **🚧Under construction 🚧**
+[![DOI](https://zenodo.org/badge/249396737.svg)](https://zenodo.org/badge/latestdoi/249396737)
 
 ## Intro
 This repository is a resource for research groups using a [Chemspeed](https://www.chemspeed.com/) machine to perform automated experiments. We provide documentation and templates to help groups create a workflow that ensures their Chemspeed data stays safe, properly labelled, and reusable, even when users join and leave the group. 
@@ -27,10 +28,9 @@ Documentation and templates are written in [markdown](https://daringfireball.net
 ## License
 We have chosen to [license]() these documents with a CC-BY license, meaning that you are share and adapt it, as long as you give credit and do not impose additional restrictions. 
 
-<!--
 ## Citation
-If you would like to cite this work, this repository has a DOI, 
--->
+If you would like to cite this work, please use the zenodo DOI of this repository: [![DOI](https://zenodo.org/badge/249396737.svg)](https://zenodo.org/badge/latestdoi/249396737)
+
 
 ## Get in touch
 We'd love to hear from you if you are thinking about using or adapting these guidelines or if you have have any suggestions for their improvement. We'd be happy to work with you to help these docs work for you. If you're familiar with GitHub, please do this by openining an issue. If you're not familiar with GitHub, please email natalie.thurlby@bristol.ac.uk.
