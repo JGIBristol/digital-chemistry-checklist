@@ -5,7 +5,7 @@
 This repository is a resource for research groups using a [Chemspeed](https://www.chemspeed.com/) machine to perform automated experiments. We provide documentation and templates to help groups create a workflow that ensures their Chemspeed data stays safe, properly labelled, and reusable, even when users join and leave the group. 
 
 We hope that this will:
-1. Make things easier for researchers, by helping them to keep their data lablled . 
+1. Make things easier for researchers, by helping them to keep their data labelled . 
 2. Facilitate the collection of larger datasets, which will allow for the application of machine learning and other techniques.
 
 <!-- 
@@ -17,10 +17,10 @@ In the future we could have software to automate part of the work.
 
 
 We have written the following documentation:
-[documents/our-approach.md](): Gives an overview of our approach.
-[documents/it-setup.md](): Explains how to set up a computer attached to a Chemspeed machine in order to facilitate our approach. Useful to share with your IT department. 
-[documents/templates/technician-template.md](): Template guidelines, for a technician working with users of a Chemspeed machine.
-[documents/templates/user-template.md](): Template guidelines, for regular users of a Chemspeed machine.
+* [documents/our-approach.md](): Gives an overview of our approach.
+* [documents/it-setup.md](): Explains how to set up a computer attached to a Chemspeed machine in order to facilitate our approach. Useful to share with your IT department. 
+* [documents/templates/technician-template.md](): Template guidelines, for a technician working with users of a Chemspeed machine.
+* [documents/templates/user-template.md](): Template guidelines, for regular users of a Chemspeed machine.
 
 Documentation and templates are written in [markdown](https://daringfireball.net/projects/markdown), which an is easy-to-read and easy-to-write plain text format. You can convert the markdown files to your favourite format (e.g. html, latex, PDF, word, etc), for example using [pandoc](https://pandoc.org/)). 
 
@@ -42,6 +42,6 @@ This project was supported by Jean Golding Institute seedcorn funding.
 
 ## The Team
 <!-- picture here -->
-Natalie Thurlby - Data Scientist
-Natalie Fey
-Ella Gale 
+* Natalie Thurlby - Data Scientist
+* Natalie Fey
+* Ella Gale 
