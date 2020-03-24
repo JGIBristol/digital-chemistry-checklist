@@ -30,8 +30,7 @@ Documentation and templates are written in [markdown](https://daringfireball.net
 We have chosen to [license]() these documents with a CC-BY license, meaning that you are share and adapt it, as long as you give credit and do not impose additional restrictions. 
 
 ## Citation
-If you would like to cite this work, please use the zenodo DOI of this repository: [![DOI](https://zenodo.org/badge/249396737.svg)](https://zenodo.org/badge/latestdoi/249396737)
-
+This project uses [zenodo](https://help.zenodo.org/features/) to make this repository easier to cite. Zenodo keeps track of the different releases. Click on the zenodo badge ([![DOI](https://zenodo.org/badge/249396737.svg)](https://zenodo.org/badge/latestdoi/249396737)), and scroll down to copy the citation.
 
 ## Get in touch
 We'd love to hear from you if you are thinking about using or adapting these guidelines or if you have have any suggestions for their improvement. We'd be happy to work with you to help these docs work for you. If you're familiar with GitHub, please do this by openining an issue. If you're not familiar with GitHub, please email natalie.thurlby@bristol.ac.uk.
