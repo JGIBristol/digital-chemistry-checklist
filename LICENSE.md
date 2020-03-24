@@ -1,3 +1,4 @@
+# License
 
 All Chemspeed Helper documents are
 made available under the [Creative Commons Attribution
