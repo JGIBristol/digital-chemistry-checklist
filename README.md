@@ -7,7 +7,7 @@
 This repository is a resource for research groups using a [Chemspeed](https://www.chemspeed.com/) machine to perform automated experiments. We provide documentation and templates to help groups create a workflow that ensures their Chemspeed data stays safe, properly labelled, and reusable, even when users join and leave the group. 
 
 We hope that this will:
-1. Make things easier for researchers, by helping them to keep their data labelled . 
+1. Make things easier for researchers, by helping them to keep their data labelled, backed up, and organised. 
 2. Facilitate the collection of larger datasets, which will allow for the application of machine learning and other techniques.
 
 <!-- 
