@@ -7,13 +7,16 @@ If you have any questions that aren't discussed below, please let us know by ope
 Before you start you'll need to set up a free [GitHub][link_github] account and sign in.
 Here are some [instructions][link_signupinstructions].
 
+If you need help with anything on this page, we're happy to help you, just [ping Natalie an email](mailto:NatalieThurlby@bristol.ac.uk?subject=[GitHub]%20Chemspeed%20Helper%20Help). 
 
 ## Joining the conversation
 
-Most of our discussions about the documentation will take place on open [issues][issues_link], and we'd like to welcome you to join the discussions there. 
+Most of our discussions about the documentation will take place on open [issues][issues_link], and we'd like to welcome you to join the discussions there, which will help inform the core team about the work we plan on doing. 
 
 
 ## Contributing through GitHub
+
+As well as contributing through conversations in issues, you can directly offer changes to the documentation, by contributing through GitHub. 
 
 [git][link_git] is a really useful tool for version control.
 [GitHub][link_github] sits on top of git and supports collaborative and distributed working.
@@ -45,6 +48,7 @@ At the moment, we have the following documentation:
 * [documents/it-setup.md](documents/it-setup.md): Explains how to set up a computer attached to a Chemspeed machine in order to facilitate our approach. Useful to share with your IT department. 
 * [documents/templates/technician-template.md](documents/templates/technician-template.md): Template guidelines, for a technician working with users of a Chemspeed machine.
 * [documents/templates/user-template.md](documents/templates/user-template.md): Template guidelines, for regular users of a Chemspeed machine.
+
 
 ## Making a change
 
@@ -90,9 +94,10 @@ and a project maintainer will review your proposed changes.
 We welcome and recognize all contributions from documentation to testing to code development.
 You can see a list of current contributors in the [README][contributors_link].
 
+
 ## Thank you!
 
-You're awesome.
+Thank you for contributing!
 
 <br>
 
