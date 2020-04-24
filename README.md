@@ -42,6 +42,11 @@ This project was supported by Jean Golding Institute seedcorn funding.
 
 ## The Team
 <!-- picture here -->
-* Natalie Thurlby - Data Scientist
-* Natalie Fey
 * Ella Gale 
+<!--bio here-->
+* Natalie Fey
+<!--bio here-->
+* Natalie Thurlby
+<!--bio here-->
+
+
