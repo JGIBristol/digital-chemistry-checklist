@@ -29,10 +29,6 @@ GitHub has a helpful page on
 
 ## Understanding issues
 
-Every project on GitHub uses [issues][link_issues] slightly differently.
-
-The following outlines how the `jupyter-book` developers think about these tools.
-
 **Issues** are individual pieces of work that need to be completed to move the project forwards.
 A general guideline: if you find yourself tempted to write a great big issue that
 is difficult to describe as one unit of work, please consider splitting it into two or more issues.
