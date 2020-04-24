@@ -101,7 +101,7 @@ Thank you for contributing!
 
 <br>
 
-*&mdash; Based on contributing guidelines from the [Jupter Book][link_jupyter_book] project.*
+*&mdash; Based on contributing guidelines from the [Jupter Book][jupyter_book_link] project.*
 
 [link_git]: https://git-scm.com
 [link_github]: https://github.com/https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md
