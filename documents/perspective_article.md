@@ -4,9 +4,9 @@
 
 There is a growing appetite for Digital Chemistry. The Royal Society of Chemistry recently outlined their [FIXME X YEAR] plan for a Digital Future in Chemistry[FIXME REF], focusing on automating more chemical synthesis using robotics, and mining these high-throughput data sets using Artificial Intelligence (AI) and Machine Learning (ML). Meanwhile, IBM have released RoboRXN[FIXME, CITE], which uses AI to choose reagents and protocols to produce chemicals with desirable properties.
 
-In contrast to RoboRXN, most robots for chemical synthesis are controlled by chemists (not AI), and are used to automate the time-consuming practical aspects of chemical synthesis: grinding, heating, shaking, etc. They can theoretically carry out [FIXME] times more experiments than their human lab-mates, creating more chemicals in both volume and variety. It's the data associated with these high-throughput experiments that can then form the input to AI algorithms, for chemical synthesis, drug discovery, and [FIXME OTHER EXAMPLES]. 
+In contrast to RoboRXN, most robots for chemical synthesis are controlled by chemists (not AI), and are used to automate the time-consuming practical aspects of chemical synthesis: grinding, heating, shaking, etc. They can theoretically carry out 1000 times more experiments than their human lab-mates[REF: Kuka], creating more chemicals in both volume and variety. It's the data associated with these high-throughput experiments that can then form the input to AI algorithms, for chemical synthesis, drug discovery, and [FIXME OTHER EXAMPLES]. 
 
-The installation of laboratory robots is only half the battle. ML algorithms require specific kinds of data to be feasible, and such data sets do not appear by accident. They can be very costly to produce [FIXME,CITE], for unsupervised as well as supervised learning. In fact, many agree that the field of data science is constrained by the lack of the right kinds of datasets[FIXME,CITE]. Companies who make use of data science, tend to have to spend more than 80% of their time on average on data preparation tasks[FIXME,CITE]. 
+The installation of laboratory robots is only half the battle. ML algorithms require specific kinds of data to be feasible, and such data sets do not appear by accident. They can be very costly to produce[FIXME,CITE], for unsupervised as well as supervised learning. In fact, many agree that the field of data science is constrained by the lack of the right kinds of datasets[FIXME,CITE]. Companies who make use of data science, tend to have to spend more than 80% of their time on average on data preparation tasks[FIXME,CITE]. 
 
 This is why it's important that we act quickly to begin capturing information in a useful format, in order to leverage them to make the most of the new possibilities in Digital Chemistry. This is particularly important, since Chemical synthesis robots are not cheap. With that in mind, this article aims to walk through the considerations for a research group who hope to go from using a Chemical Synthesis robot, to being prepared for this new interface between Data Science and Chemistry.
 
@@ -103,10 +103,11 @@ There are steps that you can take now to start capturing your data in a format t
 
 ## Bibliography
 
+IBM: https://www.chemistryworld.com/news/ibm-seeks-to-simplify-robotic-chemistry/4012359.article 
+Kuka: https://www.nature.com/articles/s41586-020-2442-2?luicode=10000011&lfid=231522type%3D1%26t%3D10%26q%3D%23nature%23&featurecode=20000181&u=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2442-2
 Data cleaning takes forever: https://www.cognilytica.com/2019/03/06/report-data-engineering-preparation-and-labeling-for-ai-2019/
-
 Bristol Chem Management: http://www.bristol.ac.uk/safety/media/po/Haz-Chem-management-v1.1-po.pdf 
-s
+
 
 
 <!--
