@@ -1,0 +1,43 @@
+# Step 1 "Capture": Checklist
+
+- [ ] Process: Do you have a clear and effective process for using the machine for both users, technicians, and (potentially) IT services teams?
+	- [ ] Content
+		- [ ] How to get access to the machine
+		- [ ] How to set up a new user
+		- [ ] How to set up, or schedule, a run of the machine
+	- [ ] Delivery and management
+ 		- [ ] Documents: is the information complete and accessible?
+		- [ ] Training: is it necessary to provide training, who provides this, how often?
+		- [ ] Compliance: do people follow the processes? How will you measure this? What will you do if this is not done? Who's responsibility is it to check?
+		- [ ] Feedback: how easy is for users to follow the process? What parts need changing? How will you collate feedback, how can you increase feedback responses?
+- [ ] Machine set up
+	- [ ] Network: 
+		- [ ] which IT network will this computer sit on, and who is in charge of this network?
+		- [ ] do we need to update our operating system in order to access the network? (And therefore, do we need to update any robot-related software?)
+		- [ ] Is it necessary for us to use a quarantine or gateway machine to keep this machine isolated from the rest of the network?
+- [ ] Database:
+	- [ ] Creation
+		- [ ] Who will design and create the database? 
+		- [ ] Who will have access to add things to the database?
+		- [ ] What will we stored in the database?
+			- [ ] Input chemicals data
+			    - [ ] CAS ID
+			    - [ ] Use by date?
+			- [ ] Robot instruction files	
+			- [ ] Lab environment data
+			- [ ] Research context data
+				- [ ] PI ORCID
+				- [ ] Grant number
+				- [ ] Project name
+			- [ ] Machine run log
+			- [ ] Output chemicals
+				- [ ] Labels
+				- [ ] Linked downstream analysis
+		- [ ] How will data be inputted to the database?
+		    - [ ] Input chemicals data
+		        - [ ] Can we import from the CIS automatically: if choosing a digital CIS, which software will allow us to do this easily?
+		        - [ ] Are there any additioanl databases that we would want to link to? What identifiers do they use?	      
+		- [ ] Where will the database be stored? 
+	- [ ] Maintainance:
+		- [ ] Who will maintain the database and any software needed to populate it?
+		- [ ] How often will the data be backed up and where will it be backed up to?
