@@ -101,14 +101,15 @@ There are steps that you can take now to start capturing your data in a format t
 
 --------
 
-## Bibliography
-
+<!--## Bibliography
 IBM: https://www.chemistryworld.com/news/ibm-seeks-to-simplify-robotic-chemistry/4012359.article 
 Kuka: https://www.nature.com/articles/s41586-020-2442-2?luicode=10000011&lfid=231522type%3D1%26t%3D10%26q%3D%23nature%23&featurecode=20000181&u=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2442-2
 Data cleaning takes forever: https://www.cognilytica.com/2019/03/06/report-data-engineering-preparation-and-labeling-for-ai-2019/
 Bristol Chem Management: http://www.bristol.ac.uk/safety/media/po/Haz-Chem-management-v1.1-po.pdf 
-
-
+Chemputer: https://science.sciencemag.org/content/363/6423/eaav2211
+Chemspeed: https://www.chemspeed.com/about/what-we-do/
+Review: http://www.chem.gla.ac.uk/cronin/media/papers/4---NOPGNOS-Gromski-CellPress-Aug19.pdf 
+-->
 
 <!--
 - Data interoperability
