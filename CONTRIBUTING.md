@@ -1,18 +1,16 @@
-# Contributing to Chemspeed Helper
+# Contributing to `Digital Chemistry Checklist`
 
-Welcome to the `chemspeed-helper` repository! We're excited you're here and want to contribute.
+Welcome to the `Digital Chemistry Checklist` repository! We're excited you're here and want to contribute.
 
 If you have any questions that aren't discussed below, please let us know by opening an [issue][issues_link]!
 
 Before you start you'll need to set up a free [GitHub][link_github] account and sign in.
 Here are some [instructions][link_signupinstructions].
 
-If you need help with anything on this page, we're happy to help you, just [ping Natalie an email](mailto:NatalieThurlby@bristol.ac.uk?subject=[GitHub]%20Chemspeed%20Helper%20Help). 
+If you need help with anything on this page, we're happy to help you, just [ping Natalie an email](mailto:NatalieThurlby@bristol.ac.uk?subject=[GitHub]%20Digital%20Chemistry%20Checklist%20Help). 
 
 ## Joining the conversation
-
 Most of our discussions about the documentation will take place on open [issues][issues_link], and we'd like to welcome you to join the discussions there, which will help inform the core team about the work we plan on doing. 
-
 
 ## Contributing through GitHub
 
@@ -36,6 +34,7 @@ GitHub has a helpful page on
 A general guideline: if you find yourself tempted to write a great big issue that
 is difficult to describe as one unit of work, please consider splitting it into two or more issues.
 
+<!--
 ## Repository Structure of this repository
 
 In the 
@@ -48,21 +47,21 @@ At the moment, we have the following documentation:
 * [documents/it-setup.md](documents/it-setup.md): Explains how to set up a computer attached to a Chemspeed machine in order to facilitate our approach. Useful to share with your IT department. 
 * [documents/templates/technician-template.md](documents/templates/technician-template.md): Template guidelines, for a technician working with users of a Chemspeed machine.
 * [documents/templates/user-template.md](documents/templates/user-template.md): Template guidelines, for regular users of a Chemspeed machine.
-
+-->
 
 ## Making a change
 
-We appreciate all contributions to `chemspeed-helper`, but those accepted fastest will follow a workflow similar to the following:
+We appreciate all contributions to the Digital Chemistry Checklist, but those accepted fastest will follow a workflow similar to the following:
 
 **1. Comment on an existing issue or open a new issue referencing your addition.**
 
-This allows other members of the jupyter-book development team to confirm that you aren't overlapping with work that's currently underway and that everyone is on the same page with the goal of the work you're going to carry out.
+This allows other members of the team to confirm that you aren't overlapping with work that's currently underway and that everyone is on the same page with the goal of the work you're going to carry out.
 
 [This blog][link_pushpullblog] is a nice explanation of why putting this work in up front is so useful to everyone involved.
 
-**2. [Fork][link_fork] the [jupyter-book repository][link_jupyter-book] to your profile.**
+**2. [Fork][link_fork] the [Digital Chemistry Checklist repository][link_digichem] to your profile.**
 
-This is now your own unique copy of jupyter-book.
+This is now your own unique copy of the Digital Chemistry Checklist repository.
 Changes here won't effect anyone else's work, so it's a safe space to explore edits to the code!
 
 Make sure to [keep your fork up to date][link_updateupstreamwiki] with the master repository.
@@ -93,7 +92,6 @@ and a project maintainer will review your proposed changes.
 
 We welcome and recognize all contributions from documentation to testing to code development.
 You can see a list of current contributors in the [README][contributors_link].
-
 
 ## Thank you!
 
