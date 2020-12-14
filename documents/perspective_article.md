@@ -75,6 +75,14 @@ Once created, the data created might be kept "in-house", or it might be availabl
 
 [FIXME NATIONAL DATABASE]
 
+### User stories
+Example use cases for a digital chemistry pipeline.
+
+#### Reproducibility
+<!-- TODO: rephrase second sentence-->
+
+Poor quality reagants can lead to problems in research. For example, unreliable probes have led to thousands of papers with uninterpretable results, including a failed clinical trial for breast cancer that involved more than 500 people[FIXME CITE]. By automatically keeping track of chemical batches, Chemists can more easily gain from (and contribute to) [efforts to record poor quality chemicals](https://www.chemicalprobes.org/).
+
 ## Road map
 In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. Luckily, we do not need to reach our ideal "end goal" to leverage any benefit. We've broken up the process into three stages. For each stage, we have created a checklist. These are available [on GitHub](). We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.
 
@@ -102,6 +110,7 @@ There are steps that you can take now to start capturing your data in a format t
 --------
 
 <!--## Bibliography
+Chemical probes. org: https://www.scientificamerican.com/article/chemists-start-web-site-fingering-substances-that-ruin-experiments/
 IBM: https://www.chemistryworld.com/news/ibm-seeks-to-simplify-robotic-chemistry/4012359.article 
 Kuka: https://www.nature.com/articles/s41586-020-2442-2?luicode=10000011&lfid=231522type%3D1%26t%3D10%26q%3D%23nature%23&featurecode=20000181&u=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2442-2
 Data cleaning takes forever: https://www.cognilytica.com/2019/03/06/report-data-engineering-preparation-and-labeling-for-ai-2019/
