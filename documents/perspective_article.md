@@ -84,25 +84,37 @@ Example use cases for a digital chemistry pipeline.
 Poor quality reagants can lead to problems in research. For example, unreliable probes have led to thousands of papers with uninterpretable results, including a failed clinical trial for breast cancer that involved more than 500 people[FIXME CITE]. By automatically keeping track of chemical batches, Chemists can more easily gain from (and contribute to) [efforts to record poor quality chemicals](https://www.chemicalprobes.org/).
 
 ## Road map
-In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. Luckily, we do not need to reach our ideal "end goal" to leverage any benefit. We've broken up the process into three stages. For each stage, we have created a checklist. These are available [on GitHub](). We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.
+In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. Luckily, we do not need to reach our ideal "end goal" to leverage any benefit. We've broken up the process into three stages. For each stage, we have created a checklist. These are available [on GitHub](https://github.com/Jean-Golding-Institute/digital-chemistry-checklist). We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.
 
 ### Stage 1: Capture
 The purpose of this stage is to **prevent data being collected presently from being lost** in the future. We may not be able to easily sort or use it all at this stage, but the important thing is that it is not lost. 
 
-In this stage, we think about collecting what we would need to connect data that we currently store to one another, and to outside data sets that may be of interest.
+In this stage, we think about collecting what we would need to connect data that we currently store to one another, and to outside data sets that may be of interest. 
+
+At the end of this stage, all of the data should be:
+- in one or more databases but the database
+- be backed up regularly
+- be accessible after staff leave the university
+- stored with sensible naming conventions
+
+However, the database may:
+- contain proprietary files where the underlying data cannot be easily extracted at the present time. 
+- contain identifiers that link to other data sources (e.g. chemical inventory systems)
 
 ### Stage 2: Curation
-Databases may contain proprietary files where the underlying data cannot be easily extracted at the present time.
+The purpose of this stage is to extract all the information that we might want to use and put it all in one place, such that a skilled person could query it.
+
+<!--
 Getting all of the information out.
 Checking for any sources of error.
 Getting everything talking to each other.
+-->
 
-### Stage 3: Use
-Data Access Comittee
-Ethics?
-
-### Stage 4: Infrastructure
-A national database? Biocurators, chemicurators. Ontology? Versioning and archiving the database. 
+### Stage 3: Access
+The purpose of this stage is to make the data accessible to those that need to use it. Depending in the commericial sensitivity or other privacy concerns aruond of the data, this may mean:
+- Setting up a data access comittee, who approves certain uses of the data and exports part of the local database as data sets for researchers.
+- Developing a web front-end, or API allowing researchers to search the database directly.
+- Submitting interesting data to an [(inter)national database](https://www.ebi.ac.uk/ols/ontologies/cheminf) for experimental chemistry results.
 
 ## Conclusion
 There are steps that you can take now to start capturing your data in a format that can be usable later.
