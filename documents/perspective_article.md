@@ -92,9 +92,9 @@ The purpose of this stage is to **prevent data being collected presently from be
 In this stage, we think about collecting what we would need to connect data that we currently store to one another, and to outside data sets that may be of interest. 
 
 At the end of this stage, all of the data should be:
-- in one or more databases but the database
+- in one or more databases
 - be backed up regularly
-- be accessible after staff leave the university
+- be automatically stored in a place that is not tied to individual staff members after each experiment run
 - stored with sensible naming conventions
 
 However, the database may:
