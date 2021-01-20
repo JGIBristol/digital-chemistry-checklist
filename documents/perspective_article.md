@@ -78,10 +78,38 @@ Once created, the data created might be kept "in-house", or it might be availabl
 ### User stories
 Example use cases for a digital chemistry pipeline.
 
-#### Reproducibility
+#### 1. Reproducibility
 <!-- TODO: rephrase second sentence-->
 
 Poor quality reagants can lead to problems in research. For example, unreliable probes have led to thousands of papers with uninterpretable results, including a failed clinical trial for breast cancer that involved more than 500 people[FIXME CITE]. By automatically keeping track of chemical batches, Chemists can more easily gain from (and contribute to) [efforts to record poor quality chemicals](https://www.chemicalprobes.org/).
+
+#### 2. More efficient research for synthetic chemists
+
+Not all reactions end up in the published literature, and negative reactions are often missing. This leads to researchers running experiments that have been run before and have failed. The creation of a searchable database of products, intended products or reagents from chemspeed data would alter this. A researcher would first search for their proposed reaction, reagents and products and find previously run reactions. If the reaction has been run before and failed, the researcher could try another route instead, thus saving on wasted chemicals and research time. Or, if the reaction worked, but not all that well, it could give information about how to improve the approach (for example, should a different solvent or temperature be tried?). If the reaction was associated with a user, the researcher could even contact that researcher to gain 'knowhow' in how best to run these types of reactions. 
+
+#### 3. Mapping areas of chemical and reaction space (chemoinformatics and data science)
+
+The number of synthetically accessible chemicals is vast (over 10^60 for molecules expected to be pharmacologically active), and that of reactions to create them even larger. Using ChemSpeed database can allow scientists to collect together maps of chemical/reaction space. Some examples of the datasets (maps) that could be gathered: 
+1. a collection of which chemicals/reactions have been tried to highlight which areas of chemical/reaction space are undergoing active research and what areas have not been explored, 
+2. a collection of chemicals synthesized/reactions tried and the sucess/results of the reaction
+3. datasets focussed on uses of a specific chemical or technique (e.g. 'all reactions in DMF', 'all reactions involved SNAr reactions with product MW under 70' etc)
+The automatic inclusion of negative and less good (i.e. not publishable in high end journals) reactions which the ChemSpeed captures increases the quality of these datasets.
+
+#### 4. Doing machine learning (ML) or using artificial intelligence (AI) techniques (machine learning and data science)
+
+Using the datasets generated above (user case 3) chemists will be able to do ML and AI on the data. Some examples:
+1. Applying simpler ML techniques (like principal compoent analysis, regression models, clustering algorithms etc) on smaller, specific datasets (like 'all reactions to make product x using varied catalysts', 'all 10-carbon ring based molecules and their solubility' etc) to give descriptions of that area of chemical space. These descriptions can highlight trends which would allow for predictions, for example of better catalysts ore more soluble products in the examples mentioned here. 
+2. Creation of large datasets covering large areas of chemical space would allow for more complex ML/AI algorithms to be applied to understand vast areas of chemical space and reactivity. These sort of tasks will lead to both improved ML algorithms for chemistry and large break-throughs in chemistry understanding.
+These approaches will make it easier to design molecules or materials for a task and reaction routes to try.
+
+#### 5. Statistical data discovery (statistics, chemoinformatics, data science)
+
+Design of experiments is a widely used technique where a large number of similar reactions ideally in parallel to infer information about processes, or optimise for yieild, variability or resilience etc. This sort of approach is commonly used with automated synthesis. However, statistics can be applied to previously run data to look for underlying structure in the data which will give information about underlying chemistry. These are the sorts of trends that are hard for human scientists to see in the data without large datasets and statistical techniques. This might sound similar to user case 4, however ML is concerned with learning models from data and that can then be used predict and design, statistics is concerned with describing what is in the data. 
+
+#### 6. Optimisiation of reactions (synthetic and industrial chemistry)
+
+Using the datasets that cover specific areas of chemical/reaction space (as outlined in user case 3), chemists and chemical engineers can explore that region to get an idea of what to do to try to optimise a specific reaction. This would likely then lead to better designed DoE (than they would get starting without this mined information), greatly increasing the efficiency and sucess of optimisation. 
+
 
 ## Road map
 In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. Luckily, we do not need to reach our ideal "end goal" to leverage any benefit. We've broken up the process into three stages. For each stage, we have created a checklist. These are available [on GitHub](https://github.com/Jean-Golding-Institute/digital-chemistry-checklist). We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.
