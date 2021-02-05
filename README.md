@@ -1,6 +1,8 @@
 # Digital Chemistry Checklist 
 [![DOI](https://zenodo.org/badge/249396737.svg)](https://zenodo.org/badge/latestdoi/249396737)
 
+![](documents/logo.png)
+
 **🚧Under construction 🚧**
 
 ## Intro
