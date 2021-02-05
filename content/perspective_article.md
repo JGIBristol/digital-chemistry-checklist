@@ -1,4 +1,4 @@
-# How to make the most of a Chemical Synthesis robot
+# Launch of the Digital Chemistry Checklist: how to prepare for the future of Digital Chemistry
 
 ```{image} logo.png
 :alt: Digital Chemistry Checklist logo
@@ -24,16 +24,19 @@ So much so that there is a real lack of suitable datasets: many agree that the f
 
 This is why it's important that we act quickly to begin capturing information in a useful format, in order to leverage them to make the most of the new possibilities in Digital Chemistry. 
 This is particularly important, since Chemical synthesis robots are not cheap. 
-With that in mind, this article aims to walk through the considerations for a research group who hope to go from using a Chemical Synthesis robot, to being prepared for this new interface between Data Science and Chemistry.
+With that in mind, this article aims to walk through the considerations for a research group who hope to get prepared for this new interface between Data Science and Chemistry.
+
+We provide both some {ref}`use cases<use-cases>` which might inspire a change, an overview of the different {ref}`data types that may be of interest<data-types>`, and a collection of checklists within a {ref}`three stage road map<road-map>` to support in planning.
+These materials serve as a starting point for developing a community of knowledge for Digital Chemistry labs, we welcome your suggestions to expand these materials, through [our GitHub repository](https://github.com/Jean-Golding-Institute/digital-chemistry-checklist).
 
 ## The starting point
-Let us begin by imagining a scenario where we have installed our new robotic friend and we have connected them to a computer which controls their movement with our computational instructions. 
+To help us understand what kinds of data exist, let us begin by imagining a scenario where we have installed our new robotic friend and we have connected them to a computer which controls their movement with our computational instructions. 
 Let's also assume that this same machine also collects any output data provided by the robot.
-First let's consider the different types of data that are related, and how and if we are collecting them by default.
 
+(data-types)=
 ### Inputs and outputs
-
-At this stage, even for a single user with one run of the robot, we are likely to have a few different types of inputs and outputs:
+Now we can consider the different types of data that are related, and how and if they would be collected by default.
+At this stage, even for a single user with one run of the robot, we are likely to have a few different types of inputs and outputs that we might be interested in:
 
 1. **Input chemicals**: the chemicals themselves and information about their provenance
 2. **Robot instructions**: the input instructions to the machine
@@ -52,6 +55,7 @@ And if it is available in a computational format, then this information might be
 
 If the chemicals can be input to the robot in different ways, for example in a different order, or in different slots or locations, then this information may not be recorded, or may be recorded in a lab book by the chemist operating the robot.
 
+(2-robot-instructions)=
 #### 2. Robot instructions
 In some way, the chemical synthesis robot must be told what to do. 
 These instructions might created by users through interacting with buttons and menus using a Graphical User Interface, or written directly into a file.
@@ -63,34 +67,36 @@ Some lab environment data may be collected by the robot, if it has inbuilt senso
 Otherwise, it's likely that this information is lost, or collected in a lab book, which may not be digital.
 
 #### 4. Context
-By default, it's likely that this information is collected in a lab book (which may not be digital). 
-If users submit jobs to the robot (which is operated by a technician), then it may not be the lab book of the person who is running the experiment - the experiment owner might not know who is operating the machine and vice versa.
+By default, it's likely that information about the context of the experiment (where this run of the experiment fits into a larger experimental design for example) is collected in a lab book (which may not be digital). 
+If users submit jobs to the robot, then it may not be the lab book of the person who is running the experiment (perhaps a technician). 
+The experiment owner might not know who is operating the machine and vice versa.
 
 #### 5. Machine run log
 At a minimum the robot will output some information about what time it ran, what it did, and whether it's attempts were successful (i.e. the robot did not need to stop for some reason). 
 More sophisticated technology might include information about the machine environment, e.g. if you told it to heat up a chemical to X degrees, what temperature did it actually reach inside the machine?
 
-Similarly to (2), this information may be in a proprietary format.
+Similarly to {ref}`(2)<2-robot-instructions>`, this information may be in a proprietary format.
 
 #### 6. Output chemicals
 Chemical synthesis robots create physical chemicals. 
-These could come out of the machine in different locations or at different times, which may not be recorded. 
+These could come out of the machine in different locations or at different times, which may not be recorded by default. 
 They could be labelled as a batch or individually by the user, and there may not be a set naming convention. 
 
 After leaving the machine, they are likely to undergo downstream analysis (e.g. NMR), which will be different depending on the lab and it's facilities. 
 These machines may have existing data storage mechanisms that may not yet mesh with one another, or be stored in the same place.
 
-#### The big picture
-We've looked at several data types that will exist in any chemical synthesis scenario, and how they might be stored "by default". In a worst case scenario, these different data sources may:
+### The starting point: summary
+We've looked at several data types that will exist in any chemical synthesis scenario, and how they might be stored "by default". 
+In a worst case scenario, these different data sources may:
 - Not exist in a digital format
 - Contain errors (e.g. typos) due to being written into spreadsheets or databases by hand without data validation.
 - Be stored somewhere that will no longer be available in the future (for example when staff leave the group).
 - Exist in a proprietary format that it is difficult to extract data from for use in other analyses
 - Be disconnected from one another (and other possible sources of data linkage) and may not have contain identifiers which allow it to be connected easily.
 
-In the next section, we'll look at what a best case scenario might look like, and then: how we can get there.
-
 ## The end goal
+Now let's look at what a best case scenario might look like, and then: how we can get there.
+
 Ideally, the process of setting up and running the chemical synthesis robot should result in a well-linked, searchable, database with minimal manual effort. 
 The database should include information from all six sources of data mentioned above. 
 As well as all of the data created inside the lab, the database could also link to knowledge created outside of it, for example the literature, or national databases of interest. 
@@ -106,17 +112,25 @@ For example, we might imagine:
 
 Once created, the data created might be kept "in-house", or it might be available to researchers freely, or selectively, through a data access committee. 
 Depending on the audience, users may wish to query the database locally, to search it using a web front end, or through an API.
+Some parts of the data might be submitted to a national database, where the data might undergo stricter curation and harmonisation with other national datasets.
 
-[//]: # (TODO: Add setences about NATIONAL DATABASE)
-
-### User stories
-Example use cases for a digital chemistry pipeline.
+(use-cases)=
+### Use-cases
+Here we provide some example use-cases that show how connecting this data could support Chemistry research. 
 
 #### 1. Reproducibility
-Poor quality reagants can lead to problems in research. 
+
+Chemistry is not immune to the scientific "{ref}`reproducibility crisis<reproducibility-crisis>`"{cite}`Chawla2017-af`.
+One contributing reason for this is that poor-quality reagants can lead to problems in research. 
 For example, unreliable probes have led to thousands of papers with uninterpretable results, including a failed clinical trial for breast cancer that involved more than 500 people{cite}`Baker2015-wk`. 
 By automatically keeping track of chemical batches, chemists can more easily gain from (and contribute to) reproducibility efforts, e.g. [efforts to record poor quality chemicals](https://www.chemicalprobes.org/).
 
+```{margin} The Reproducibility Crisis
+:name: reproducibility-crisis
+Researchers have found that less experiments reproduce (get the same answer if repeated) than they expected.
+Over 70% of researchers tried and failed to reproduce another researcher's experiments, and more than 50% have failed to reproduce their *own* experiments{cite}`Baker2016-gx`
+In chemistry the result was even worse: over 80% and 60% respectively.
+```
 
 #### 2. More efficient research for synthetic chemists
 
@@ -156,8 +170,14 @@ This might sound similar to user case 4, however ML is concerned with learning m
 Using the datasets that cover specific areas of chemical/reaction space (as outlined in user case 3), chemists and chemical engineers can explore that region to get an idea of what to do to try to optimise a specific reaction. 
 This would likely then lead to better designed DoE (than they would get starting without this mined information), greatly increasing the efficiency and sucess of optimisation. 
 
+(road-map)=
 ## Road map
-In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. Luckily, we do not need to reach our ideal "end goal" to leverage any benefit. We've broken up the process into three stages. For each stage, we have created a checklist. These are available [on GitHub](https://github.com/Jean-Golding-Institute/digital-chemistry-checklist). We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.
+In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. 
+Luckily, we do not need to reach our ideal "end goal" to leverage any benefit. 
+We've broken up the process into three stages. 
+For each stage, we have created a checklist. 
+You can contribute to these materials through [our GitHub repository](https://github.com/Jean-Golding-Institute/digital-chemistry-checklist). 
+We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.
 
 ### Stage 1: Capture
 The purpose of this stage is to **prevent data being collected presently from being lost** in the future.
@@ -261,6 +281,8 @@ The purpose of this stage is to make the data accessible to those that need to u
 - Setting up a data access committee, who approves certain uses of the data and exports part of the local database as data sets for researchers.
 - Developing a web front-end, or API allowing researchers to search the database directly.
 - Submitting interesting data to an [(inter)national database](https://www.ebi.ac.uk/ols/ontologies/cheminf) for experimental chemistry results.
+
+This section focusing on making your data [FAIR](https://www.go-fair.org/fair-principles/): Findable, Accessible, Interoperable, and Reusable, helping yo (and others) to get the most out of it.
 
 ```{admonition} Stage 3 Checklist
 :name: checklist-3

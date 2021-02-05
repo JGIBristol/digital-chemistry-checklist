@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>How to make the most of a Chemical Synthesis robot &#8212; My Jupyter Book</title>
+    <title>Launch of the Digital Chemistry Checklist: how to prepare for the future of Digital Chemistry &#8212; My Jupyter Book</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
@@ -145,12 +145,12 @@
        6. Output chemicals
       </a>
      </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#the-big-picture">
-       The big picture
-      </a>
-     </li>
     </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-starting-point-summary">
+     The starting point: summary
+    </a>
    </li>
   </ul>
  </li>
@@ -160,8 +160,8 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#user-stories">
-     User stories
+    <a class="reference internal nav-link" href="#use-cases">
+     Use-cases
     </a>
     <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
@@ -235,8 +235,8 @@
         
               <div>
                 
-  <div class="section" id="how-to-make-the-most-of-a-chemical-synthesis-robot">
-<h1>How to make the most of a Chemical Synthesis robot<a class="headerlink" href="#how-to-make-the-most-of-a-chemical-synthesis-robot" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="launch-of-the-digital-chemistry-checklist-how-to-prepare-for-the-future-of-digital-chemistry">
+<h1>Launch of the Digital Chemistry Checklist: how to prepare for the future of Digital Chemistry<a class="headerlink" href="#launch-of-the-digital-chemistry-checklist-how-to-prepare-for-the-future-of-digital-chemistry" title="Permalink to this headline">¶</a></h1>
 <a class="reference internal image-reference" href="_images/logo.png"><img alt="Digital Chemistry Checklist logo" class="align-center" src="_images/logo.png" style="width: 200px;" /></a>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
@@ -253,16 +253,18 @@ Bespoke AI data sets can be very costly to produce<a class="bibtex reference int
 So much so that there is a real lack of suitable datasets: many agree that the field of data science is constrained by the lack of the right kinds of data.</p>
 <p>This is why it’s important that we act quickly to begin capturing information in a useful format, in order to leverage them to make the most of the new possibilities in Digital Chemistry.
 This is particularly important, since Chemical synthesis robots are not cheap.
-With that in mind, this article aims to walk through the considerations for a research group who hope to go from using a Chemical Synthesis robot, to being prepared for this new interface between Data Science and Chemistry.</p>
+With that in mind, this article aims to walk through the considerations for a research group who hope to get prepared for this new interface between Data Science and Chemistry.</p>
+<p>We provide both some <a class="reference internal" href="#use-cases"><span class="std std-ref">use cases</span></a> which might inspire a change, an overview of the different <a class="reference internal" href="#data-types"><span class="std std-ref">data types that may be of interest</span></a>, and a collection of checklists within a <a class="reference internal" href="#road-map"><span class="std std-ref">three stage road map</span></a> to support in planning.
+These materials serve as a starting point for developing a community of knowledge for Digital Chemistry labs, we welcome your suggestions to expand these materials, through <a class="reference external" href="https://github.com/Jean-Golding-Institute/digital-chemistry-checklist">our GitHub repository</a>.</p>
 </div>
 <div class="section" id="the-starting-point">
 <h2>The starting point<a class="headerlink" href="#the-starting-point" title="Permalink to this headline">¶</a></h2>
-<p>Let us begin by imagining a scenario where we have installed our new robotic friend and we have connected them to a computer which controls their movement with our computational instructions.
-Let’s also assume that this same machine also collects any output data provided by the robot.
-First let’s consider the different types of data that are related, and how and if we are collecting them by default.</p>
+<p>To help us understand what kinds of data exist, let us begin by imagining a scenario where we have installed our new robotic friend and we have connected them to a computer which controls their movement with our computational instructions.
+Let’s also assume that this same machine also collects any output data provided by the robot.</p>
 <div class="section" id="inputs-and-outputs">
-<h3>Inputs and outputs<a class="headerlink" href="#inputs-and-outputs" title="Permalink to this headline">¶</a></h3>
-<p>At this stage, even for a single user with one run of the robot, we are likely to have a few different types of inputs and outputs:</p>
+<span id="data-types"></span><h3>Inputs and outputs<a class="headerlink" href="#inputs-and-outputs" title="Permalink to this headline">¶</a></h3>
+<p>Now we can consider the different types of data that are related, and how and if they would be collected by default.
+At this stage, even for a single user with one run of the robot, we are likely to have a few different types of inputs and outputs that we might be interested in:</p>
 <ol class="simple">
 <li><p><strong>Input chemicals</strong>: the chemicals themselves and information about their provenance</p></li>
 <li><p><strong>Robot instructions</strong>: the input instructions to the machine</p></li>
@@ -281,7 +283,7 @@ And if it is available in a computational format, then this information might be
 <p>If the chemicals can be input to the robot in different ways, for example in a different order, or in different slots or locations, then this information may not be recorded, or may be recorded in a lab book by the chemist operating the robot.</p>
 </div>
 <div class="section" id="robot-instructions">
-<h4>2. Robot instructions<a class="headerlink" href="#robot-instructions" title="Permalink to this headline">¶</a></h4>
+<span id="id5"></span><h4>2. Robot instructions<a class="headerlink" href="#robot-instructions" title="Permalink to this headline">¶</a></h4>
 <p>In some way, the chemical synthesis robot must be told what to do.
 These instructions might created by users through interacting with buttons and menus using a Graphical User Interface, or written directly into a file.
 We will assume that this results in a file of some kind that the robot uses to carry out the experiment.
@@ -294,26 +296,29 @@ Otherwise, it’s likely that this information is lost, or collected in a lab bo
 </div>
 <div class="section" id="context">
 <h4>4. Context<a class="headerlink" href="#context" title="Permalink to this headline">¶</a></h4>
-<p>By default, it’s likely that this information is collected in a lab book (which may not be digital).
-If users submit jobs to the robot (which is operated by a technician), then it may not be the lab book of the person who is running the experiment - the experiment owner might not know who is operating the machine and vice versa.</p>
+<p>By default, it’s likely that information about the context of the experiment (where this run of the experiment fits into a larger experimental design for example) is collected in a lab book (which may not be digital).
+If users submit jobs to the robot, then it may not be the lab book of the person who is running the experiment (perhaps a technician).
+The experiment owner might not know who is operating the machine and vice versa.</p>
 </div>
 <div class="section" id="machine-run-log">
 <h4>5. Machine run log<a class="headerlink" href="#machine-run-log" title="Permalink to this headline">¶</a></h4>
 <p>At a minimum the robot will output some information about what time it ran, what it did, and whether it’s attempts were successful (i.e. the robot did not need to stop for some reason).
 More sophisticated technology might include information about the machine environment, e.g. if you told it to heat up a chemical to X degrees, what temperature did it actually reach inside the machine?</p>
-<p>Similarly to (2), this information may be in a proprietary format.</p>
+<p>Similarly to <a class="reference internal" href="#robot-instructions"><span class="std std-ref">(2)</span></a>, this information may be in a proprietary format.</p>
 </div>
 <div class="section" id="output-chemicals">
 <h4>6. Output chemicals<a class="headerlink" href="#output-chemicals" title="Permalink to this headline">¶</a></h4>
 <p>Chemical synthesis robots create physical chemicals.
-These could come out of the machine in different locations or at different times, which may not be recorded.
+These could come out of the machine in different locations or at different times, which may not be recorded by default.
 They could be labelled as a batch or individually by the user, and there may not be a set naming convention.</p>
 <p>After leaving the machine, they are likely to undergo downstream analysis (e.g. NMR), which will be different depending on the lab and it’s facilities.
 These machines may have existing data storage mechanisms that may not yet mesh with one another, or be stored in the same place.</p>
 </div>
-<div class="section" id="the-big-picture">
-<h4>The big picture<a class="headerlink" href="#the-big-picture" title="Permalink to this headline">¶</a></h4>
-<p>We’ve looked at several data types that will exist in any chemical synthesis scenario, and how they might be stored “by default”. In a worst case scenario, these different data sources may:</p>
+</div>
+<div class="section" id="the-starting-point-summary">
+<h3>The starting point: summary<a class="headerlink" href="#the-starting-point-summary" title="Permalink to this headline">¶</a></h3>
+<p>We’ve looked at several data types that will exist in any chemical synthesis scenario, and how they might be stored “by default”.
+In a worst case scenario, these different data sources may:</p>
 <ul class="simple">
 <li><p>Not exist in a digital format</p></li>
 <li><p>Contain errors (e.g. typos) due to being written into spreadsheets or databases by hand without data validation.</p></li>
@@ -321,12 +326,11 @@ These machines may have existing data storage mechanisms that may not yet mesh w
 <li><p>Exist in a proprietary format that it is difficult to extract data from for use in other analyses</p></li>
 <li><p>Be disconnected from one another (and other possible sources of data linkage) and may not have contain identifiers which allow it to be connected easily.</p></li>
 </ul>
-<p>In the next section, we’ll look at what a best case scenario might look like, and then: how we can get there.</p>
-</div>
 </div>
 </div>
 <div class="section" id="the-end-goal">
 <h2>The end goal<a class="headerlink" href="#the-end-goal" title="Permalink to this headline">¶</a></h2>
+<p>Now let’s look at what a best case scenario might look like, and then: how we can get there.</p>
 <p>Ideally, the process of setting up and running the chemical synthesis robot should result in a well-linked, searchable, database with minimal manual effort.
 The database should include information from all six sources of data mentioned above.
 As well as all of the data created inside the lab, the database could also link to knowledge created outside of it, for example the literature, or national databases of interest.</p>
@@ -341,15 +345,23 @@ For example, we might imagine:</p>
 <li><p>Data is automatically backed up</p></li>
 </ul>
 <p>Once created, the data created might be kept “in-house”, or it might be available to researchers freely, or selectively, through a data access committee.
-Depending on the audience, users may wish to query the database locally, to search it using a web front end, or through an API.</p>
-<div class="section" id="user-stories">
-<h3>User stories<a class="headerlink" href="#user-stories" title="Permalink to this headline">¶</a></h3>
-<p>Example use cases for a digital chemistry pipeline.</p>
+Depending on the audience, users may wish to query the database locally, to search it using a web front end, or through an API.
+Some parts of the data might be submitted to a national database, where the data might undergo stricter curation and harmonisation with other national datasets.</p>
+<div class="section" id="use-cases">
+<span id="id6"></span><h3>Use-cases<a class="headerlink" href="#use-cases" title="Permalink to this headline">¶</a></h3>
+<p>Here we provide some example use-cases that show how connecting this data could support Chemistry research.</p>
 <div class="section" id="reproducibility">
 <h4>1. Reproducibility<a class="headerlink" href="#reproducibility" title="Permalink to this headline">¶</a></h4>
-<p>Poor quality reagants can lead to problems in research.
-For example, unreliable probes have led to thousands of papers with uninterpretable results, including a failed clinical trial for breast cancer that involved more than 500 people<a class="bibtex reference internal" href="#baker2015-wk" id="id5">[5]</a>.
+<p>Chemistry is not immune to the scientific “<a class="reference internal" href="#reproducibility-crisis"><span class="std std-ref">reproducibility crisis</span></a>”<a class="bibtex reference internal" href="#chawla2017-af" id="id7">[5]</a>.
+One contributing reason for this is that poor-quality reagants can lead to problems in research.
+For example, unreliable probes have led to thousands of papers with uninterpretable results, including a failed clinical trial for breast cancer that involved more than 500 people<a class="bibtex reference internal" href="#baker2015-wk" id="id8">[6]</a>.
 By automatically keeping track of chemical batches, chemists can more easily gain from (and contribute to) reproducibility efforts, e.g. <a class="reference external" href="https://www.chemicalprobes.org/">efforts to record poor quality chemicals</a>.</p>
+<div class="margin sidebar" id="reproducibility-crisis">
+<p class="sidebar-title">The Reproducibility Crisis</p>
+<p>Researchers have found that less experiments reproduce (get the same answer if repeated) than they expected.
+Over 70% of researchers tried and failed to reproduce another researcher’s experiments, and more than 50% have failed to reproduce their <em>own</em> experiments<a class="bibtex reference internal" href="#baker2016-gx" id="id9">[7]</a>
+In chemistry the result was even worse: over 80% and 60% respectively.</p>
+</div>
 </div>
 <div class="section" id="more-efficient-research-for-synthetic-chemists">
 <h4>2. More efficient research for synthetic chemists<a class="headerlink" href="#more-efficient-research-for-synthetic-chemists" title="Permalink to this headline">¶</a></h4>
@@ -396,8 +408,13 @@ This would likely then lead to better designed DoE (than they would get starting
 </div>
 </div>
 <div class="section" id="road-map">
-<h2>Road map<a class="headerlink" href="#road-map" title="Permalink to this headline">¶</a></h2>
-<p>In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials. Luckily, we do not need to reach our ideal “end goal” to leverage any benefit. We’ve broken up the process into three stages. For each stage, we have created a checklist. These are available <a class="reference external" href="https://github.com/Jean-Golding-Institute/digital-chemistry-checklist">on GitHub</a>. We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.</p>
+<span id="id10"></span><h2>Road map<a class="headerlink" href="#road-map" title="Permalink to this headline">¶</a></h2>
+<p>In order to prepare for a Digital Chemistry future, we need to not only invest in technology, but also in the development of processes and training materials.
+Luckily, we do not need to reach our ideal “end goal” to leverage any benefit.
+We’ve broken up the process into three stages.
+For each stage, we have created a checklist.
+You can contribute to these materials through <a class="reference external" href="https://github.com/Jean-Golding-Institute/digital-chemistry-checklist">our GitHub repository</a>.
+We welcome suggestions for making these more effective, to reduce the burden on those setting up an effective Digital Chemistry lab.</p>
 <div class="section" id="stage-1-capture">
 <h3>Stage 1: Capture<a class="headerlink" href="#stage-1-capture" title="Permalink to this headline">¶</a></h3>
 <p>The purpose of this stage is to <strong>prevent data being collected presently from being lost</strong> in the future.
@@ -551,6 +568,7 @@ In both of these situations we will want to check for any sources of error autom
 <li><p>Developing a web front-end, or API allowing researchers to search the database directly.</p></li>
 <li><p>Submitting interesting data to an <a class="reference external" href="https://www.ebi.ac.uk/ols/ontologies/cheminf">(inter)national database</a> for experimental chemistry results.</p></li>
 </ul>
+<p>This section focusing on making your data <a class="reference external" href="https://www.go-fair.org/fair-principles/">FAIR</a>: Findable, Accessible, Interoperable, and Reusable, helping yo (and others) to get the most out of it.</p>
 <div class="dropdown admonition" id="checklist-3">
 <p class="admonition-title">Stage 3 Checklist</p>
 <ul class="simple">
@@ -614,8 +632,14 @@ Interoperable:
 <dt class="bibtex label" id="weiss2003-ol"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
 <dd><p>G M Weiss and F Provost. Learning when training data are costly: the effect of class distribution on tree induction. <em>J. Artif. Intell. Res.</em>, 19:315–354, October 2003. URL: <a class="reference external" href="https://www.jair.org/index.php/jair/article/view/10346">https://www.jair.org/index.php/jair/article/view/10346</a>.</p>
 </dd>
-<dt class="bibtex label" id="baker2015-wk"><span class="brackets"><a class="fn-backref" href="#id5">5</a></span></dt>
+<dt class="bibtex label" id="chawla2017-af"><span class="brackets"><a class="fn-backref" href="#id7">5</a></span></dt>
+<dd><p>Dalmeet S Chawla. Taking on chemistry’s reproducibility problem. <em>Chemistry World</em>, 2017.</p>
+</dd>
+<dt class="bibtex label" id="baker2015-wk"><span class="brackets"><a class="fn-backref" href="#id8">6</a></span></dt>
 <dd><p>Monya Baker and Nature magazine. Chemists start web site fingering substances that ruin experiments. <em>Scientific American</em>, July 2015. URL: <a class="reference external" href="https://www.scientificamerican.com/article/chemists-start-web-site-fingering-substances-that-ruin-experiments/">https://www.scientificamerican.com/article/chemists-start-web-site-fingering-substances-that-ruin-experiments/</a>.</p>
+</dd>
+<dt class="bibtex label" id="baker2016-gx"><span class="brackets"><a class="fn-backref" href="#id9">7</a></span></dt>
+<dd><p>Monya Baker. 1,500 scientists lift the lid on reproducibility. <span><a class="reference external" href="#"></a></span>http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970, May 2016. Accessed: 2021-2-5. URL: <a class="reference external" href="http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970">http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970</a>.</p>
 </dd>
 </dl>
 </p>

@@ -13,7 +13,6 @@ If you need help with anything on this page, we're happy to help you, just [ping
 Most of our discussions about the documentation will take place on open [issues][issues_link], and we'd like to welcome you to join the discussions there, which will help inform the core team about the work we plan on doing. 
 
 ## Contributing through GitHub
-
 As well as contributing through conversations in issues, you can directly offer changes to the documentation, by contributing through GitHub. 
 
 [git][link_git] is a really useful tool for version control.
@@ -72,6 +71,12 @@ Try to keep the changes focused.
 
 Working on a [new branch][link_branches] makes it easier to keep your changes targeted.
 
+To update the article: run
+`jupyter-book build content/perspective_article.md --path-output docs/`
+
+To look at your local copy of the article:
+`open docs/index.html`
+
 **4. Submit a [pull request][link_pullrequest].**
 
 A member of the core team will review your changes to confirm that they can be merged into the main code base.
@@ -86,7 +91,6 @@ and that you plan to continue working on it.
 
 When your pull request is Ready for Review, you can select this option on the PR's page,
 and a project maintainer will review your proposed changes.
-
 
 ## Recognizing contributors
 
